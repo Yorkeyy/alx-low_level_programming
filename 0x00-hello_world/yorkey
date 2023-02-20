@@ -1,0 +1,11 @@
+#include <stdio.h>
+ 
+int main(void)
+
+{
+	char f,m,l;
+	int age;
+	scanf(" %c %c %c %d", &f, &m, &l, &age);
+	printf("My name is  %c%c%c and i am %dft tall!",\n 'Y','K','B','age');
+	return(0);
+} 
