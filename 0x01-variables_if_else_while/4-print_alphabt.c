@@ -1,18 +1,21 @@
 #include <stdio.h>
 
 /**
- * main - Prints all single digit numbers of base 10 starting from 0.
+ * main - Prints the alphabet in lowercase, except for q and e.
  *
  * Return: Always 0.
  */
 int main(void)
 {
-	int num;
+	char letter;
 
-	for (num = 0; num < 10; num++)
-		printf("%d", num);
+	for (letter = 'a'; letter <= 'z'; letter++)
+	{
+		if (letter != 'e' && letter != 'q')
+			putchar(letter);
+	}
 
-	printf("\n");
+	putchar('\n');
 
 	return (0);
 }
