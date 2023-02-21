@@ -6,7 +6,6 @@
  *
  * Return: Always 0.
  */
-
 int main(void)
 {
 	int digit1, digit2;
@@ -20,7 +19,6 @@ int main(void)
 
 			if (digit1 == 9 && digit2 == 9)
 				continue;
-
 			putchar(',');
 			putchar(' ');
 		}
